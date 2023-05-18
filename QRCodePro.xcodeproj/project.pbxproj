@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		065BAEEB2A15AC6A00A5E611 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065BAEEA2A15AC6A00A5E611 /* CameraView.swift */; };
 		06F0F4192A1510CF0048905C /* QRCodeProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F0F4182A1510CF0048905C /* QRCodeProApp.swift */; };
 		06F0F41B2A1510CF0048905C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F0F41A2A1510CF0048905C /* ContentView.swift */; };
 		06F0F41D2A1510D10048905C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F0F41C2A1510D10048905C /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		065BAEEA2A15AC6A00A5E611 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		06F0F4152A1510CF0048905C /* QRCodePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F0F4182A1510CF0048905C /* QRCodeProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeProApp.swift; sourceTree = "<group>"; };
 		06F0F41A2A1510CF0048905C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				06F0F4272A1511550048905C /* ScannerView.swift */,
+				065BAEEA2A15AC6A00A5E611 /* CameraView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				06F0F4282A1511550048905C /* ScannerView.swift in Sources */,
 				06F0F41B2A1510CF0048905C /* ContentView.swift in Sources */,
 				06F0F4192A1510CF0048905C /* QRCodeProApp.swift in Sources */,
+				065BAEEB2A15AC6A00A5E611 /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
