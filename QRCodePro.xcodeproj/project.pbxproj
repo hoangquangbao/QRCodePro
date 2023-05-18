@@ -10,23 +10,23 @@
 		065BAEEB2A15AC6A00A5E611 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065BAEEA2A15AC6A00A5E611 /* CameraView.swift */; };
 		065BAEEE2A15B20800A5E611 /* CameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065BAEED2A15B20800A5E611 /* CameraPermission.swift */; };
 		065BAEF22A1600B000A5E611 /* QRCodeScannerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065BAEF12A1600B000A5E611 /* QRCodeScannerDelegate.swift */; };
+		065BAEF42A161D1D00A5E611 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065BAEF32A161D1D00A5E611 /* ScannerView.swift */; };
 		06F0F4192A1510CF0048905C /* QRCodeProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F0F4182A1510CF0048905C /* QRCodeProApp.swift */; };
 		06F0F41B2A1510CF0048905C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F0F41A2A1510CF0048905C /* ContentView.swift */; };
 		06F0F41D2A1510D10048905C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F0F41C2A1510D10048905C /* Assets.xcassets */; };
 		06F0F4202A1510D10048905C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F0F41F2A1510D10048905C /* Preview Assets.xcassets */; };
-		06F0F4282A1511550048905C /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F0F4272A1511550048905C /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		065BAEEA2A15AC6A00A5E611 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		065BAEED2A15B20800A5E611 /* CameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermission.swift; sourceTree = "<group>"; };
 		065BAEF12A1600B000A5E611 /* QRCodeScannerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerDelegate.swift; sourceTree = "<group>"; };
+		065BAEF32A161D1D00A5E611 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 		06F0F4152A1510CF0048905C /* QRCodePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F0F4182A1510CF0048905C /* QRCodeProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeProApp.swift; sourceTree = "<group>"; };
 		06F0F41A2A1510CF0048905C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06F0F41C2A1510D10048905C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06F0F41F2A1510D10048905C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		06F0F4272A1511550048905C /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScannerView.swift; path = ../../../ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +89,8 @@
 		06F0F4262A1511490048905C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				06F0F4272A1511550048905C /* ScannerView.swift */,
 				065BAEEA2A15AC6A00A5E611 /* CameraView.swift */,
+				065BAEF32A161D1D00A5E611 /* ScannerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -165,10 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06F0F4282A1511550048905C /* ScannerView.swift in Sources */,
 				065BAEF22A1600B000A5E611 /* QRCodeScannerDelegate.swift in Sources */,
 				06F0F41B2A1510CF0048905C /* ContentView.swift in Sources */,
 				065BAEEE2A15B20800A5E611 /* CameraPermission.swift in Sources */,
+				065BAEF42A161D1D00A5E611 /* ScannerView.swift in Sources */,
 				06F0F4192A1510CF0048905C /* QRCodeProApp.swift in Sources */,
 				065BAEEB2A15AC6A00A5E611 /* CameraView.swift in Sources */,
 			);
