@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		065BAEEB2A15AC6A00A5E611 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065BAEEA2A15AC6A00A5E611 /* CameraView.swift */; };
+		065BAEEE2A15B20800A5E611 /* CameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065BAEED2A15B20800A5E611 /* CameraPermission.swift */; };
 		06F0F4192A1510CF0048905C /* QRCodeProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F0F4182A1510CF0048905C /* QRCodeProApp.swift */; };
 		06F0F41B2A1510CF0048905C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F0F41A2A1510CF0048905C /* ContentView.swift */; };
 		06F0F41D2A1510D10048905C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F0F41C2A1510D10048905C /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		065BAEEA2A15AC6A00A5E611 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		065BAEED2A15B20800A5E611 /* CameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermission.swift; sourceTree = "<group>"; };
 		06F0F4152A1510CF0048905C /* QRCodePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F0F4182A1510CF0048905C /* QRCodeProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeProApp.swift; sourceTree = "<group>"; };
 		06F0F41A2A1510CF0048905C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		065BAEEC2A15B1D800A5E611 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				065BAEED2A15B20800A5E611 /* CameraPermission.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		06F0F40C2A1510CF0048905C = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 		06F0F4172A1510CF0048905C /* QRCodePro */ = {
 			isa = PBXGroup;
 			children = (
+				065BAEEC2A15B1D800A5E611 /* Model */,
 				06F0F4262A1511490048905C /* View */,
 				06F0F4182A1510CF0048905C /* QRCodeProApp.swift */,
 				06F0F41A2A1510CF0048905C /* ContentView.swift */,
@@ -153,6 +164,7 @@
 			files = (
 				06F0F4282A1511550048905C /* ScannerView.swift in Sources */,
 				06F0F41B2A1510CF0048905C /* ContentView.swift in Sources */,
+				065BAEEE2A15B20800A5E611 /* CameraPermission.swift in Sources */,
 				06F0F4192A1510CF0048905C /* QRCodeProApp.swift in Sources */,
 				065BAEEB2A15AC6A00A5E611 /* CameraView.swift in Sources */,
 			);
@@ -286,6 +298,7 @@
 				DEVELOPMENT_TEAM = 84ZVHZY7F4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use to scan QRCode";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -315,6 +328,7 @@
 				DEVELOPMENT_TEAM = 84ZVHZY7F4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use to scan QRCode";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

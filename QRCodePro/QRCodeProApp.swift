@@ -11,7 +11,7 @@ import SwiftUI
 struct QRCodeProApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ScannerView()
         }
     }
 }
