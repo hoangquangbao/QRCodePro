@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		065BAEEB2A15AC6A00A5E611 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065BAEEA2A15AC6A00A5E611 /* CameraView.swift */; };
 		065BAEEE2A15B20800A5E611 /* CameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065BAEED2A15B20800A5E611 /* CameraPermission.swift */; };
+		065BAEF22A1600B000A5E611 /* QRCodeScannerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065BAEF12A1600B000A5E611 /* QRCodeScannerDelegate.swift */; };
 		06F0F4192A1510CF0048905C /* QRCodeProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F0F4182A1510CF0048905C /* QRCodeProApp.swift */; };
 		06F0F41B2A1510CF0048905C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F0F41A2A1510CF0048905C /* ContentView.swift */; };
 		06F0F41D2A1510D10048905C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F0F41C2A1510D10048905C /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		065BAEEA2A15AC6A00A5E611 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		065BAEED2A15B20800A5E611 /* CameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermission.swift; sourceTree = "<group>"; };
+		065BAEF12A1600B000A5E611 /* QRCodeScannerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerDelegate.swift; sourceTree = "<group>"; };
 		06F0F4152A1510CF0048905C /* QRCodePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F0F4182A1510CF0048905C /* QRCodeProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeProApp.swift; sourceTree = "<group>"; };
 		06F0F41A2A1510CF0048905C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 			isa = PBXGroup;
 			children = (
 				065BAEED2A15B20800A5E611 /* CameraPermission.swift */,
+				065BAEF12A1600B000A5E611 /* QRCodeScannerDelegate.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06F0F4282A1511550048905C /* ScannerView.swift in Sources */,
+				065BAEF22A1600B000A5E611 /* QRCodeScannerDelegate.swift in Sources */,
 				06F0F41B2A1510CF0048905C /* ContentView.swift in Sources */,
 				065BAEEE2A15B20800A5E611 /* CameraPermission.swift in Sources */,
 				06F0F4192A1510CF0048905C /* QRCodeProApp.swift in Sources */,
@@ -292,10 +296,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"QRCodePro/Preview Content\"";
-				DEVELOPMENT_TEAM = 84ZVHZY7F4;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Q69LFL687B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Use to scan QRCode";
@@ -309,8 +315,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BaoHoang.QRCodePro;
+				PRODUCT_BUNDLE_IDENTIFIER = net.airmedic.telmedic.hb.tmadev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Olive_hybrid_tmadev_bao;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,10 +330,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"QRCodePro/Preview Content\"";
-				DEVELOPMENT_TEAM = 84ZVHZY7F4;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Q69LFL687B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Use to scan QRCode";
@@ -339,8 +349,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BaoHoang.QRCodePro;
+				PRODUCT_BUNDLE_IDENTIFIER = net.airmedic.telmedic.hb.tmadev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Olive_hybrid_tmadev_bao;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
